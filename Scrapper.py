@@ -7,9 +7,8 @@ from typing import List
 
 class Extract():
     '''
-    This class contains tools for webscraping Coventory University website
-    for School of Economics, Finance and Accounting Research
-
+    This class contains tools for web scraping Coventry University website
+    for centre for intelligent healthcare (RCIH).
     '''
     __url: str = "https://pureportal.coventry.ac.uk/en/organisations/centre-for-intelligent-healthcare/publications/"
     __pubs: List[dict] = []
